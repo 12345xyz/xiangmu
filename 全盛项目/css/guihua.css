@@ -1,0 +1,440 @@
+.clear{
+	content: "";
+	clear: both;
+	display: block;
+}
+.header{
+     width: 100%;
+     height: 200px;
+     background: url(../image/header_bg.png) no-repeat center bottom;
+     position: relative;
+}
+.header_bg{
+	 width: 100%;
+     height: 200px;
+     background: #000;
+     opacity: 0.1;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+}
+.header_T{
+      width: 1200px;
+      height: 200px;
+      margin: 0 auto;
+      position: relative;
+}
+.header_T_1{
+	  width: 194px;
+      height: 49px;
+      position: absolute;
+      top: 55px;
+}
+.header_T_1 img{
+      width: 194px;
+      height: 49px;
+}
+.header_T ul{
+	float: right;
+	margin-top: 71px;
+}
+.header_T li{
+	width: 108px;
+	height: 30px;
+	float: left;
+	text-align: center;
+	line-height: 30px;
+	font-size: 18px;
+	color: #565050;
+	font-weight: bold;
+	border-bottom:2px #565050 solid;   
+}
+ .header_T .ul_1{
+	border-bottom:2px red solid;
+}
+.header_T li:hover {
+	border-bottom:2px red solid;
+}
+ul a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.ul_2{
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    z-index: 2;
+}
+.ul_2 i{
+	color: #fff;
+}
+.ul_2 a{
+	font-size: 16px;
+	color: #fff;
+}
+.header a:hover{
+	
+	text-decoration: underline;
+}
+.header_B{
+	position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: #000000;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+}
+.fund{
+	width: 1200px;
+	height: 225px;
+	margin:0 auto; 
+	margin-top: 30px;
+}
+.fund_L{
+	float: left;
+	width: 366px;
+	height: 225px;
+}
+.fund_L img{
+	width: 366px;
+	height: 225px;
+}
+.fund_R{
+	width: 834px;
+	height: 225px;
+	float: left;
+	background-color: #f9f9f9;
+}
+.fundR_1{
+	width: 834px;
+	height: 180px;
+	margin-top: 22px;
+}
+.num{
+	width: 16px;
+	height: 14px;
+	float: left;
+	margin-left: 70px;
+	margin-top: 20px;
+	background-image: url(../image/douhao.png);	
+}
+.fundR_1 h4{
+	float: right;
+	font-size: 21px;
+    color: #4c4948;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-right: 75px;
+}
+.fundR_1 small{
+	font-size: 14px;
+    color: #4c4948;
+}
+.fundR_2{
+	float: right;
+	width: 643px;
+	height: 88px;
+	margin-top: 22px;
+    margin-right: 75px;
+}
+.fundR_2 p{
+	text-indent: 40px;
+	font-size: 14px;
+	color: #4c4948;
+}
+.num1{
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-right: -687px;
+	margin-top: 115px;
+	background-image: url(../image/douhao2.png);	
+}
+.mgt{
+	width: 1200px;
+	height: 225px;
+	margin:0 auto; 
+	float: left;
+    margin-top: 30px;
+}
+.mgt_L{
+	width: 834px;
+	height: 225px;
+	background-color: #f9f9f9;
+}
+.mgt_logo{
+	width: 260px;
+	height: 25px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 70px;
+}
+.Num{
+	width: 16px;
+	height: 14px;
+	float: left;
+	margin-top: 38px;
+	margin-left: -35px;
+	background: url(../image/douhao.png);
+}
+.Num1{
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 161px;
+	margin-right: -470px;
+	background: url(../image/douhao2.png);
+}
+.lo{
+	width: 5px;
+	height: 25px;
+	float: left;
+	background-image: url(../image/hongtiao.png);
+}
+.mgt_logo h4{
+	float: left;
+	font-size: 21px;
+    color: #4c4948;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.mgt_logo small{
+	font-size: 14px;
+    color: #4c4948;
+}
+.mgt_L p{
+	width: 650px;
+	float: left;
+	font-size: 14px;
+	color: #4c4948;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.mgt_R{
+	width: 366px;
+	height: 225px;
+	float: right;
+	margin-top: -225px;
+}
+.mgt_R img{
+    width: 366px;
+	height: 225px;
+}
+.pay{
+	width: 1200px;
+	height: 225px;
+	margin:0 auto; 
+	float: left;
+	margin-top: 30px;
+}
+.pay_L{
+	width: 366px;
+	height: 225px;
+	float: left;
+}
+.pay_L img{
+	width: 366px;
+	height: 225px;
+}
+.pay_R{
+	width: 834px;
+	height: 225px;
+	float: left;
+	background-color: #f9f9f9;
+}
+.pay_R1{
+	width: 16px;
+	height: 14px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 55px;
+	background-image: url(../image/douhao.png);
+}
+.pay_R2{
+	width: 254px;
+	height: 30px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 439px;
+}
+.pay_R2 h4{
+	font-size: 21px;
+    color: #4c4948;
+    float: left;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.pay_R2 small{
+	float: left;
+	font-size: 14px;
+    color: #4c4948;
+}
+.pay_R3{
+	width: 5px;
+	height: 25px;
+	float: left;
+	margin-left: 8px;
+	margin-right: 7px;
+	margin-top: -3px;
+	background-image: url(../image/hongtiao.png);
+}
+.pay_R4{
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-right: 55px;
+	margin-top: 135px;
+	background-image: url(../image/douhao2.png);
+}
+.pay_R p{
+	width: 650px;
+	float: left;
+	font-size: 14px;
+	color: #4c4948;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.media{
+	width: 1200px;
+	height: 225px;
+	margin:0 auto; 
+	float: left;
+    margin-top: 30px;
+}
+.media_L{
+	width: 834px;
+	height: 225px;
+	background-color: #f9f9f9;
+}
+.media_logo{
+	width: 260px;
+	height: 25px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 70px;
+}
+.N{
+	width: 16px;
+	height: 14px;
+	float: left;
+	margin-top: 38px;
+	margin-left: -35px;
+	background: url(../image/douhao.png);
+}
+.N1{
+	width: 16px;
+	height: 14px;
+	float: right;
+	margin-top: 161px;
+	margin-right: -470px;
+	background: url(../image/douhao2.png);
+}
+.lg{
+	width: 5px;
+	height: 25px;
+	float: left;
+	background-image: url(../image/hongtiao.png);
+}
+.media_logo h4{
+	float: left;
+	font-size: 21px;
+    color: #4c4948;
+    font-weight: bold;
+    height: 21px;
+    line-height: 21px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.media_logo small{
+	font-size: 14px;
+    color: #4c4948;
+}
+.media_L p{
+	width: 650px;
+	float: left;
+	font-size: 14px;
+	color: #4c4948;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.media_R{
+	width: 366px;
+	height: 225px;
+	float: right;
+	margin-top: -225px;
+}
+.media_R img{
+    width: 366px;
+	height: 225px;
+}
+.line{
+	width: 1200px;
+	height: 1px;
+	float: left;
+	margin-top: 30px;
+	background-color: #9b9b9b;
+}
+.bottom{
+    width: 1200px;
+    height: 108px;
+    float: left;
+    margin-top: -18px;
+}
+.bottom1{
+	width: 120px;
+	height: 30px;
+	float: left;
+	margin-top: 39px;
+	margin-left: 160px;
+}
+.bottom1 img{
+	width: 120px;
+	height: 30px;
+	
+}
+.bottom2{
+	width: 5px;
+	height: 30px;
+	float: left;
+	margin-top: 38px;
+	margin-left: 100px;
+	background-image: url(../image/hongtiao.png);
+}
+.bottom3{
+	width: 450px;
+	height: 100px;
+	float: left;
+	margin-top: 23px;
+	margin-left: 205px;	
+}
+.bottom3 p{
+	float: right;
+	color: #585657;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.bottomR{
+	width: 69px;
+	height: 67px;
+	margin-top: 30px;
+	margin-right: 40px;
+	float: right;
+}
+.bottomR img{
+	width: 69px;
+	height: 67px;
+}
