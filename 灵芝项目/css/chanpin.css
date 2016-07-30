@@ -1,0 +1,319 @@
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+body{
+	background-color: #09070e;
+}
+head{
+	position: relative;
+}
+.wrap{
+	width: 318px;
+	height: 422px;
+	position: absolute;
+	top: 150px;
+	left: 210px;
+	z-index: -1;
+	background-image: url(../image/bg2.png);
+}
+.top{
+	width: 1140px;
+	height: 56px;
+	margin:0 auto;
+	border-bottom:1px #d4d6d3 solid;
+}
+.top span{
+	color: #fff;
+	font-size: 14px;
+	line-height: 56px;
+}
+.center1{
+     width: 1140px;
+     height: 316px;
+     background-color: #fff;
+     margin:0 auto;
+     margin-top: 25px;
+}
+.center1L{
+	width: 407px;
+	height: 226px;
+	float: left;
+	margin-top: 45px;
+	margin-left: 26px;
+	background-image: url(../image/lz3.png);
+}
+.center1R{
+	width: 530px;
+	height: 226px;
+	float: right;
+	margin-top: 45px;
+	margin-right: 30px;
+	color: #3b3b3b;
+}
+.center1R2{
+	width: 24px;
+	height: 4px;
+	float: left;
+	margin-top: 20px; 
+	background-color: #ef3a05;
+}
+.center1R3{
+	width: 530px;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+.center1R3 p{
+	color: #3b3b3b;
+	font-size: 12px;
+	line-height: 15px;
+}
+.center1R4 a{
+	width: 98px;
+	height: 38px;
+	float: left;
+	margin-top: 8px;
+	border:1px red solid;
+	color: red;
+	line-height: 38px;
+	text-align: center;
+}
+.center2{
+     width: 1140px;
+     height: 316px;
+     background-color: #fff;
+     margin:0 auto;
+     margin-top: 25px;
+}
+.center2L{
+	width: 635px;
+	height:220px;
+	float: left;
+	margin-top: 54px;
+	margin-left: 28px;
+}
+.center2L1{
+	width: 24px;
+	height: 4px;
+	float: left;
+	margin-top: 20px; 
+	background-color: #ef3a05;
+}
+.center2L2{
+	width: 530px;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+.center2L2 p{
+	color: #3b3b3b;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.center2R{
+	width: 392px;
+	height: 226px;
+	float: right;
+	margin-top: 45px;
+	margin-left: 26px;
+	background-image: url(../image/lz4.png);
+}
+.center3{
+     width: 1140px;
+     height: 316px;
+     background-color: #fff;
+     margin:0 auto;
+     margin-top: 25px;
+}
+.center13L{
+	width: 349px;
+	height: 226px;
+	float: left;
+	margin-top: 45px;
+	margin-left: 26px;
+	background-image: url(../image/lz5.png);
+}
+.center3R{
+	width: 530px;
+	height: 226px;
+	float: right;
+	margin-top: 45px;
+	margin-right: 30px;
+	color: #3b3b3b;
+}
+.center3R2{
+	width: 24px;
+	height: 4px;
+	float: left;
+	margin-top: 20px; 
+	background-color: #ef3a05;
+}
+.center3R3{
+	width: 530px;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+.center3R3 p{
+	color: #3b3b3b;
+	font-size: 12px;
+	line-height: 15px;
+}
+.center3R4 a{
+	width: 98px;
+	height: 38px;
+	float: left;
+	margin-top: 8px;
+	border:1px red solid;
+	color: red;
+	line-height: 38px;
+	text-align: center;
+}
+.center4{
+     width: 1140px;
+     height: 316px;
+     background-color: #fff;
+     margin:0 auto;
+     margin-top: 25px;
+}
+.center4L{
+	width: 635px;
+	height:220px;
+	float: left;
+	margin-top: 54px;
+	margin-left: 28px;
+}
+.center4L1{
+	width: 24px;
+	height: 4px;
+	float: left;
+	margin-top: 20px; 
+	background-color: #ef3a05;
+}
+.center4L2{
+	width: 530px;
+	height: 100px;
+	float: left;
+	margin-top: 30px;
+}
+.center4L2 p{
+	color: #3b3b3b;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.center4R{
+	width: 392px;
+	height: 226px;
+	float: right;
+	margin-top: 45px;
+	margin-left: 26px;
+	background-image: url(../image/lz4.png);
+}
+
+
+
+
+
+
+
+
+
+
+.header{
+	width: 1140px;
+	height: 34px;
+	position: relative;
+	top: 0px;
+	margin: 0 auto;
+	background-color: #000;
+}
+.header span {
+	float: left;
+	color: #fff;
+	font-size: 20px;
+	line-height: 34px;
+	margin-left: 5px;
+}
+.header ul{
+	float: right;
+	margin-right: 18px;
+}
+.header li {
+	width: 105px;
+	height: 34px;
+	color: #fff;
+	float: left;
+	font-size:12px;
+	line-height: 34px;
+	text-align: center;
+}
+.header li a{
+	color: #fff;
+	font-size:12px;
+	line-height: 34px;
+	text-align: center;
+}
+.header li a:hover {
+	text-decoration: underline;
+}
+.hunt{
+	width: 13px;
+	height: 14px;
+	margin-top: 10px;
+	background:url(../image/search.png);
+}
+.header ul .ul_R{
+	width: 13px;
+	height: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+	width: 100%;
+	height: 60px;
+	margin:0 auto;
+	margin-top: 36px;
+	background-color: #f4f4f4;
+}
+.footC{
+	width: 1140px;
+	height: 60px;
+	margin:0 auto;
+}
+.footC ul{
+	float: left;
+}
+.footC li {
+	float: left;
+	width: 80px;
+	height: 60px;	
+	text-align: center;
+	line-height: 60px;
+	font-size: 14px;
+}
+.footC  p{
+	font-size: 12px;
+	color: #c1c1c1;
+	line-height: 60px;
+}
